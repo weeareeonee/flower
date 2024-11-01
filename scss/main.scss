@@ -28,38 +28,9 @@ body {
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
-  background-image: radial-gradient(
-      ellipse at top,
-      transparent 0%,
-      var(--dark-color)
-    ),
-    radial-gradient(
-      ellipse at bottom,
-      var(--dark-color),
-      rgba(145, 233, 255, 0.2)
-    ),
-    repeating-linear-gradient(
-      220deg,
-      rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 19px,
-      transparent 19px,
-      transparent 22px
-    ),
-    repeating-linear-gradient(
-      189deg,
-      rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 19px,
-      transparent 19px,
-      transparent 22px
-    ),
-    repeating-linear-gradient(
-      148deg,
-      rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 19px,
-      transparent 19px,
-      transparent 22px
-    ),
-    linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
+  background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)),
+    repeating-linear-gradient(220deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px),
+    repeating-linear-gradient(148deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
 }
 
 .flowers {
@@ -180,7 +151,7 @@ body {
     }
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 0;
@@ -239,7 +210,7 @@ body {
     background-color: #fff;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 50%;
       top: 45%;
@@ -247,125 +218,28 @@ body {
       width: 60%;
       height: 60%;
       border-radius: inherit;
-      background-image: repeating-linear-gradient(
-          135deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          45deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          67.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          135deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          45deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          112.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          112.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          45deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          22.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          45deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          22.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          135deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          157.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          67.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        repeating-linear-gradient(
-          67.5deg,
-          rgba(0, 0, 0, 0.03) 0px,
-          rgba(0, 0, 0, 0.03) 1px,
-          transparent 1px,
-          transparent 12px
-        ),
-        linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
+      background-image: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(112.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(22.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(157.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(67.5deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 1px, transparent 1px, transparent 12px), linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
     }
   }
 
   &__line {
     height: 55vmin;
     width: 1.5vmin;
-    background-image: linear-gradient(
-        to left,
-        rgb(0, 0, 0, 0.2),
-        transparent,
-        rgba(255, 255, 255, 0.2)
-      ),
-      linear-gradient(to top, transparent 10%, #14757a, #39c6d6);
+    background-image: linear-gradient(to left, rgb(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #14757a, #39c6d6);
     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
     animation: grow-flower-tree 4s backwards;
 
@@ -379,11 +253,7 @@ body {
       height: var(--h);
       border-top-right-radius: var(--h);
       border-bottom-left-radius: var(--h);
-      background-image: linear-gradient(
-        to top,
-        rgba(20, 117, 122, 0.4),
-        #39c6d6
-      );
+      background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #39c6d6);
 
       &--1 {
         transform: rotate(70deg) rotateY(30deg);
@@ -530,12 +400,7 @@ body {
       height: var(--size);
       border-top-left-radius: var(--size);
       border-top-right-radius: var(--size);
-      background-image: linear-gradient(
-        to top,
-        transparent,
-        transparent 30%,
-        var(--c)
-      );
+      background-image: linear-gradient(to top, transparent, transparent 30%, var(--c));
       z-index: 100;
 
       $speed-leaf: 2s;
@@ -721,11 +586,7 @@ body {
       height: 50vmin;
       border-top-left-radius: 100%;
       border-left: 2vmin solid #079097;
-      background-image: linear-gradient(
-        to bottom,
-        transparent,
-        var(--dark-color) 60%
-      );
+      background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
       -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
 
@@ -790,12 +651,7 @@ body {
     &__line {
       width: 0.3vmin;
       height: 20vmin;
-      background-image: linear-gradient(
-        to top,
-        transparent,
-        #079097,
-        transparent 100%
-      );
+      background-image: linear-gradient(to top, transparent, #079097, transparent 100%);
       position: relative;
     }
 
@@ -897,30 +753,10 @@ body {
       height: 10vmin;
       border-radius: 100% 0% 0% 100% / 100% 100% 0% 0%;
       box-shadow: inset 0 2px 1vmin hsla(184, 97%, 58%, 0.2);
-      background-image: linear-gradient(
-          to bottom left,
-          transparent,
-          var(--dark-color)
-        ),
-        linear-gradient(
-          to bottom right,
-          #159faa 50%,
-          transparent 50%,
-          transparent
-        );
+      background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #159faa 50%, transparent 50%, transparent);
 
-      -webkit-mask-image: linear-gradient(
-        to bottom right,
-        #159faa 50%,
-        transparent 50%,
-        transparent
-      );
-      mask-image: linear-gradient(
-        to bottom right,
-        #159faa 50%,
-        transparent 50%,
-        transparent
-      );
+      -webkit-mask-image: linear-gradient(to bottom right, #159faa 50%, transparent 50%, transparent);
+      mask-image: linear-gradient(to bottom right, #159faa 50%, transparent 50%, transparent);
     }
   }
 
@@ -961,24 +797,9 @@ body {
       height: 10vmin;
       border-radius: 100% 0% 0% 100% / 100% 100% 0% 0%;
       box-shadow: inset 0 2px 1vmin hsla(184, 97%, 58%, 0.2);
-      background-image: linear-gradient(
-          to bottom left,
-          transparent,
-          var(--dark-color) 98%
-        ),
-        linear-gradient(
-          to bottom right,
-          #23f0ff 45%,
-          transparent 50%,
-          transparent
-        );
+      background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, #23f0ff 45%, transparent 50%, transparent);
 
-      -webkit-mask-image: linear-gradient(
-        135deg,
-        #159faa 40%,
-        transparent 50%,
-        transparent
-      );
+      -webkit-mask-image: linear-gradient(135deg, #159faa 40%, transparent 50%, transparent);
 
       &--1 {
         left: 20vmin;
@@ -1085,11 +906,7 @@ body {
     transform: scale(0.8) rotate(-5deg);
 
     .leaf {
-      -webkit-mask-image: linear-gradient(
-        to top,
-        transparent 40%,
-        #079097 80%
-      ) !important;
+      -webkit-mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
       &--1 {
         --w: 5vmin;
@@ -1108,11 +925,7 @@ body {
     transform: scale(0.6) rotateX(60deg);
 
     .leaf {
-      -webkit-mask-image: linear-gradient(
-        to top,
-        transparent 50%,
-        #079097 80%
-      ) !important;
+      -webkit-mask-image: linear-gradient(to top, transparent 50%, #079097 80%) !important;
 
       &--1 {
         left: -1vmin;
@@ -1125,11 +938,7 @@ body {
     left: -17vmin;
     bottom: 0vmin;
     .leaf {
-      -webkit-mask-image: linear-gradient(
-        to top,
-        transparent 40%,
-        #079097 80%
-      ) !important;
+      -webkit-mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     }
   }
 
@@ -1140,11 +949,7 @@ body {
     transform: scale(0.6) rotateX(60deg);
 
     .leaf {
-      -webkit-mask-image: linear-gradient(
-        to top,
-        transparent 50%,
-        #079097 80%
-      ) !important;
+      -webkit-mask-image: linear-gradient(to top, transparent 50%, #079097 80%) !important;
     }
   }
 
@@ -1182,11 +987,7 @@ body {
     height: var(--h);
     border-top-left-radius: 100%;
     border-left: 2vmin solid var(--c);
-    -webkit-mask-image: linear-gradient(
-      to top,
-      transparent 20%,
-      var(--dark-color)
-    );
+    -webkit-mask-image: linear-gradient(to top, transparent 20%, var(--dark-color));
 
     transform-origin: bottom center;
 
